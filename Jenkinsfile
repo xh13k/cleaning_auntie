@@ -74,7 +74,7 @@ pipeline {
   parameters {
     string(name: 'HARBOR_HOST', defaultValue: '127.222.186.208:8084', description: 'harbor仓库地址')
     string(name: 'DOCKER_IMAGE', defaultValue: 'xh13k/cleaning_auntie', description: 'docker镜像名')
-    string(name: 'APP_NAME', defaultValue: 'pipeline-demo', description: 'k8s中标签名')
+    string(name: 'APP_NAME', defaultValue: 'cleaning_auntie', description: 'k8s中标签名')
     string(name: 'K8S_NAMESPACE', defaultValue: 'xh13k', description: 'k8s的namespace名称')
   }
 }
